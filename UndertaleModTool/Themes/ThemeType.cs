@@ -9,6 +9,7 @@ namespace Theme.WPF.Themes
         RedBlackTheme,
         DeepDark,
         GreyTheme,
+        NewDark,
         DarkGreyTheme,
         LightTheme,
     }
@@ -24,6 +25,7 @@ namespace Theme.WPF.Themes
                 case ThemeType.RedBlackTheme: return "RedBlackTheme";
                 case ThemeType.DeepDark: return "DeepDark";
                 case ThemeType.GreyTheme: return "GreyTheme";
+                case ThemeType.NewDark: return "NewDark";
                 case ThemeType.DarkGreyTheme: return "DarkGreyTheme";
                 case ThemeType.LightTheme: return "LightTheme";
                 default: throw new ArgumentOutOfRangeException(nameof(type), type, null);
